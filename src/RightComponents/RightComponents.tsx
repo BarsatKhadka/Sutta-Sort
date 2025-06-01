@@ -4,7 +4,7 @@ import { TopBar } from "./TopBar"
 
 export const RightComponents = () => {
   return (
-    <div className="grid grid-rows-[20%_20%_60%] h-full">
+    <div className="grid grid-rows-[12%_20%_48%] h-full">
       {/* Top Bar */}
       <div className="p-4 ">
         <TopBar/>
