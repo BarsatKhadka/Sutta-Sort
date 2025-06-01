@@ -1,13 +1,17 @@
 import './App.css'
+import { LeftComponents } from './LeftComponents/LeftComponents'
+import { RightComponents } from './RightComponents/RightComponents'
 
 function App() {
-
   return (
-    <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
+    <div className="grid grid-cols-[30%_70%] h-screen">
+      <div className="p-4">
+        <LeftComponents/>
+      </div>
+      <div className="p-4">
+        <RightComponents/>
+      </div>
+    </div>
   )
 }
 
