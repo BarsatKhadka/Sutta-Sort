@@ -1,7 +1,7 @@
-export const TagExplorer = () =>{
-    return(
-        <>
-        <h1>This is tag explorer</h1>
-        </>
-    )
+export const TagExplorer = () => {
+  return (
+    <div className="h-full">
+      Tag Explorer content goes here
+    </div>
+  )
 }

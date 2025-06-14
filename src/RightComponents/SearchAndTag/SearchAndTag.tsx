@@ -1,7 +1,7 @@
-export const SearchAndTag = () =>{
-    return (
-        <>
-        This is search and tag
-        </>
-    )
+export const SearchAndTag = () => {
+  return (
+    <div className="h-full">
+      This is search and tag
+    </div>
+  )
 }

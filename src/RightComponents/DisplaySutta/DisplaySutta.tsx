@@ -1,7 +1,7 @@
-export const DisplaySutta = () =>{
-    return (
-        <>
-        Display Suttas here
-        </>
-    )
+export const DisplaySutta = () => {
+  return (
+    <div className="h-full">
+      Display Suttas here
+    </div>
+  )
 }
